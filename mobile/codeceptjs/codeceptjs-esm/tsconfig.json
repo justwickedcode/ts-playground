@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "types": ["bun", "codeceptjs"]
+  },
+  "include": ["**/*.ts", "**/*.d.ts"],
+  "ts-node": {
+    "files": true
+  }
+}
